@@ -108,17 +108,6 @@ flutter test
 
 ## ☁️ Despliegue automático (CI/CD → GitHub Pages)
 
-El proyecto incluye un flujo de **GitHub Actions** ubicado en [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml) que automatiza la compilación y publicación de la versión web de la aplicación.
-
-**¿Cómo funciona?**
-
-1. Cada `push` a la rama `main` dispara el workflow.
-2. Se configura el SDK de Flutter en un runner de Ubuntu.
-3. Se instalan las dependencias (`flutter pub get`).
-4. Se compila la app para web en modo *release* (`flutter build web --release`).
-5. El resultado (`build/web`) se publica automáticamente en **GitHub Pages** mediante las acciones oficiales `actions/upload-pages-artifact` y `actions/deploy-pages`.
-
-> Para habilitarlo, en la configuración del repositorio (`Settings → Pages`) selecciona **GitHub Actions** como fuente de despliegue.
 
 Una vez desplegado, la aplicación quedará disponible en:
 
