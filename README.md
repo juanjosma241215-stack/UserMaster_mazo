@@ -157,6 +157,12 @@ Este proyecto fue desarrollado con fines **académicos** en el marco del program
 
 <div align="center">
 
+
+Desarrollado con 💙 por **Juan José Mazo** — SENA ADSO
+
+</div>
+=======
 Desarrollado por **Juan José Mazo** — SENA ADSO
 
 </div>
+
